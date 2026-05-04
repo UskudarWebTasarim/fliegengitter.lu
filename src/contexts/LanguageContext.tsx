@@ -36,8 +36,8 @@ const translations = {
 
     // Hero
     'hero.badge': 'Premium Qualität aus Luxemburg',
-    'hero.title': 'Fliegengitter Fenster - Professioneller Insektenschutz für Ihr Zuhause',
-    'hero.subtitle': 'Maßgefertigte Insektenschutzlösungen aus Luxemburg für Fenster, Türen, Terrassen und große Öffnungen. Hochwertige Materialien, präzise Verarbeitung und professionelle Montage garantieren langanhaltenden Schutz vor Insekten bei gleichzeitigem Luftaustausch und optimaler Sicht.',
+    'hero.title': 'Fliegengitter Luxemburg - Professioneller Insektenschutz für Ihr Zuhause',
+    'hero.subtitle': 'Maßgefertigte Fliegengitter Fenster und Luxemburg Plise Sineklik Lösungen. Premium Qualität, professionelle Montage in ganz Luxemburg.',
     'hero.cta': 'Kostenloses Angebot anfordern',
     'hero.viewProducts': 'Produkte ansehen',
     'hero.guarantee': '5 Jahre Garantie',
@@ -47,8 +47,8 @@ const translations = {
     'hero.protection': 'Effektiver Insektenschutz',
 
     // Products
-    'products.title': 'Unsere Premium Produkte',
-    'products.subtitle': 'Hochwertige Insektenschutzlösungen für jeden Bedarf',
+    'products.title': 'Luxemburg Fliegengitter - Premium Produkte',
+    'products.subtitle': 'Hochwertige Luxemburg Plise Sineklik Lösungen für jeden Bedarf',
     'products.fliegengitter': 'Fliegengitter Fenster',
     'products.fliegengitterDesc': 'Hochwertige Insektenschutzgitter für Fenster in verschiedenen Ausführungen. Maßgefertigt für perfekten Sitz.',
     'products.plissee': 'Plissee Fliegengitter',
@@ -222,8 +222,8 @@ const translations = {
 
     // Hero
     'hero.badge': 'Lüksemburg\'tan Premium Kalite',
-    'hero.title': 'Fliegengitter Fenster - Eviniz İçin Profesyonel Sineklik Koruması',
-    'hero.subtitle': 'Lüksemburg\'tan ölçüye özel sineklik koruma çözümleri - Pencereler, kapılar, teraslar ve büyük açıklıklar için. Yüksek kaliteli malzemeler, hassas işçilik ve profesyonel montaj, böceklerden uzun süreli koruma sağlarken aynı zamanda hava sirkülasyonunu ve optimum görüşü garanti eder.',
+    'hero.title': 'Lüksemburg Sineklik - Eviniz İçin Profesyonel Insektenschutz',
+    'hero.subtitle': 'Lüksemburg plise sineklik ve Lüksemburg plise perde çözümleri. Pencereler, kapılar ve teraslar için ölçüye özel sineklik.',
     'hero.cta': 'Ücretsiz Teklif Alın',
     'hero.viewProducts': 'Ürünleri Görün',
     'hero.guarantee': '5 Yıl Garanti',
@@ -233,8 +233,8 @@ const translations = {
     'hero.protection': 'Etkili Sineklik Koruması',
 
     // Products
-    'products.title': 'Premium Ürünlerimiz',
-    'products.subtitle': 'Her ihtiyaç için yüksek kaliteli sineklik çözümleri',
+    'products.title': 'Lüksemburg Sineklik - Premium Ürünler',
+    'products.subtitle': 'Lüksemburg plise perde ve sineklik çözümleri her ihtiyaç için',
     'products.fliegengitter': 'Sineklik',
     'products.fliegengitterDesc': 'Yüksek kaliteli sineklikler, çeşitli tiplerde. Mükemmel uyum için ölçüye özel üretim.',
     'products.plissee': 'Plise Sineklik',
