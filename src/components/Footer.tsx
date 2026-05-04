@@ -4,7 +4,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Mail, MapPin, Phone } from 'lucide-react';
 
 export default function Footer() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   return (
     <footer className="bg-[#404e5e] text-white py-16">

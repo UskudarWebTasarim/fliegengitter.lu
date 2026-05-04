@@ -390,17 +390,20 @@ const translations = {
 };
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>('de');
-  const [showPopup, setShowPopup] = useState(true);
-
-  useEffect(() => {
-    const savedLang = localStorage.getItem('language') as Language;
-    if (savedLang) {
-      setLanguage(savedLang);
-      // Popup'ı göstermeye devam et, sadece dil set et
-      // setShowPopup(false);
+  const [language, setLanguage] = useState<Language>(() => {
+    if (typeof window !== 'undefined') {
+      const savedLang = localStorage.getItem('language') as Language;
+      return savedLang || 'de';
     }
-  }, []);
+    return 'de';
+  });
+  const [showPopup, setShowPopup] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const savedLang = localStorage.getItem('language') as Language;
+      return !savedLang; // Eğer kayıtlı dil varsa popup gösterme
+    }
+    return true;
+  });
 
   const handleSetLanguage = (lang: Language) => {
     setLanguage(lang);

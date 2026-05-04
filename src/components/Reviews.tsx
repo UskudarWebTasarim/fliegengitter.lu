@@ -61,7 +61,7 @@ export default function Reviews() {
                 ))}
               </div>
               <p className="text-gray-600 mb-6 relative z-10">
-                "{review.text}"
+                &ldquo;{review.text}&rdquo;
               </p>
               <div className="border-t border-gray-100 pt-4">
                 <div className="font-semibold text-[#404e5e]">

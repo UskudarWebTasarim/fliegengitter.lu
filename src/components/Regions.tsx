@@ -15,7 +15,7 @@ const countries = [
 ];
 
 export default function Regions() {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
 
   return (
     <section id="regions" className="py-16 md:py-24 bg-white">
